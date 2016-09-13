@@ -1,0 +1,15 @@
+{
+  "name": "03-understanding-async-programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sync": "node sync.js",
+    "async": "node async.js"
+  },
+  "author": "quay",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.1"
+  }
+}
