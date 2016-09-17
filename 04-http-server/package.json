@@ -1,0 +1,19 @@
+{
+  "name": "04-http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "express": "node express-server.js",
+    "middlewares": "node express-middlewares.js",
+    "render": "node app.js",
+    "debug": "BEBUG=express* node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
+}
